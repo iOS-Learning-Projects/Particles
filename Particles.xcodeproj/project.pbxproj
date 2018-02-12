@@ -15,6 +15,7 @@
 		E86F20871E80455C0015B0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86F20851E80455C0015B0C5 /* Main.storyboard */; };
 		E86F20891E80455C0015B0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86F20881E80455C0015B0C5 /* Assets.xcassets */; };
 		E86F208C1E80455C0015B0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86F208A1E80455C0015B0C5 /* LaunchScreen.storyboard */; };
+		E86F20941E80464E0015B0C5 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = E86F20931E80464E0015B0C5 /* Fire.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E86F20881E80455C0015B0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E86F208B1E80455C0015B0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E86F208D1E80455C0015B0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86F20931E80464E0015B0C5 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E86F207D1E80455C0015B0C5 /* GameScene.sks */,
 				E86F207F1E80455C0015B0C5 /* Actions.sks */,
 				E86F20811E80455C0015B0C5 /* GameScene.swift */,
+				E86F20931E80464E0015B0C5 /* Fire.sks */,
 				E86F20831E80455C0015B0C5 /* GameViewController.swift */,
 				E86F20851E80455C0015B0C5 /* Main.storyboard */,
 				E86F20881E80455C0015B0C5 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 				E86F20871E80455C0015B0C5 /* Main.storyboard in Resources */,
 				E86F207E1E80455C0015B0C5 /* GameScene.sks in Resources */,
 				E86F20891E80455C0015B0C5 /* Assets.xcassets in Resources */,
+				E86F20941E80464E0015B0C5 /* Fire.sks in Resources */,
 				E86F208C1E80455C0015B0C5 /* LaunchScreen.storyboard in Resources */,
 				E86F20801E80455C0015B0C5 /* Actions.sks in Resources */,
 			);
@@ -279,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vital.Particles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -292,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vital.Particles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -314,6 +320,7 @@
 				E86F20921E80455C0015B0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
